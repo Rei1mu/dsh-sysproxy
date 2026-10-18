@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-sysproxy",
+    "description": "Follow the Windows system proxy. Model requests, web fetch, and child processes all use it. Turn the switch off to connect directly."
+  }
+}

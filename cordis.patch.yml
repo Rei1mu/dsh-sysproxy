@@ -1,0 +1,5 @@
+# dsh-sysproxy bundle: mount the system-proxy follower as `sysproxy`.
+# The only setting is the live `enabled` switch on the plugin page.
+- insert:
+    - id: sysproxy
+      name: 'dsh-sysproxy'

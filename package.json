@@ -1,0 +1,39 @@
+{
+  "name": "dsh-sysproxy",
+  "version": "1.0.0",
+  "description": "Follow the Windows system proxy inside DeepSeek Harness, with a live on/off switch",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "proxy",
+    "system-proxy"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "~3.18.5",
+    "undici": "^7.29.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
