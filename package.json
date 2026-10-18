@@ -17,6 +17,15 @@
     "README.md"
   ],
   "license": "MIT",
+  "author": "Rei1mu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rei1mu/dsh-sysproxy.git"
+  },
+  "homepage": "https://github.com/Rei1mu/dsh-sysproxy#readme",
+  "bugs": {
+    "url": "https://github.com/Rei1mu/dsh-sysproxy/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
